@@ -1,0 +1,45 @@
+# Default configuration for LEAP RAG pipeline
+
+data:
+  corpus_path: /path/to/wiki100w.jsonl
+  data_root: /path/to/data/rag
+  dataset_name: nq
+  train_file: /path/to/data/rag/nq/train.json
+  test_file: /path/to/data/rag/nq/test.json
+  truthfulqa_dev_jsonl: /path/to/data/rag/truthfulqa/dev.jsonl
+
+retriever:
+  embedding_model: /path/to/e5-base-v2
+  index_dir: outputs/index/wiki100w_e5_ivfpq
+  index_path: outputs/index/wiki100w_e5_ivfpq/faiss.index
+  sqlite_path: outputs/index/wiki100w_e5_ivfpq/contexts.sqlite
+  top_k: 10
+  nprobe: 16
+  embed_batch_size: 64
+  max_length: 512
+
+generator:
+  model_path: /path/to/llm
+  tokenizer_path: /path/to/llm
+  batch_size: 4
+  max_new_tokens: 64
+  quantization_mode: none   # none | bnb4 | mxfp4
+
+leap:
+  encoder_model_path: /path/to/bge-large-en-v1.5
+  train_score_dir: outputs/scores/nq/train
+  test_score_dir: outputs/scores/nq/test
+  checkpoint_path: outputs/leap/nq/leap_predictor.pth
+  plot_dir: outputs/leap/nq/plots
+  batch_size: 8
+  epochs: 10
+  lr: 2e-5
+  topk: 10
+  max_steps: 128
+  trace_feat_dim: 7
+
+evaluation:
+  reranked_path: outputs/rerank/nq_leap_top5.jsonl
+  result_path: outputs/eval/nq_leap_result.json
+  dataset_type: nq
+  top_k: 5

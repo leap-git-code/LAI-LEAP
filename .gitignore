@@ -1,0 +1,64 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# Environments
+.env
+.venv/
+venv/
+conda_env/
+
+# Large datasets, indexes, models
+data/
+index/
+models/
+outputs/
+results/
+logs/
+wandb/
+runs/
+
+# Generated artifacts
+plot/
+predict/
+embed_result/
+score/
+score_ctx/
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Large data files
+*.jsonl
+*.json
+*.csv
+*.pkl
+*.npy
+*.npz
+*.faiss
+*.index
+*.sqlite
+*.db
+*.parquet
+
+# Keep small samples and docs
+!data_sample/
+!data_sample/**
+!configs/*.yaml
+!docs/*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local SSH keys
+.ssh_github/
+

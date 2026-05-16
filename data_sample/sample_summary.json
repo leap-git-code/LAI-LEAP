@@ -1,0 +1,146 @@
+[
+  {
+    "dataset": "nq",
+    "split": "train",
+    "source": "data/rag/nq/train.json",
+    "num_total": 5000,
+    "num_sample": 3,
+    "output": "data_sample/nq_train_sample.jsonl"
+  },
+  {
+    "dataset": "nq",
+    "split": "test",
+    "source": "data/rag/nq/test.json",
+    "num_total": 1000,
+    "num_sample": 3,
+    "output": "data_sample/nq_test_sample.jsonl"
+  },
+  {
+    "dataset": "hotpotnq",
+    "split": "train",
+    "source": "data/rag/hotpotnq/train.json",
+    "num_total": 5000,
+    "num_sample": 3,
+    "output": "data_sample/hotpotnq_train_sample.jsonl"
+  },
+  {
+    "dataset": "hotpotnq",
+    "split": "test",
+    "source": "data/rag/hotpotnq/test.json",
+    "num_total": 1000,
+    "num_sample": 3,
+    "output": "data_sample/hotpotnq_test_sample.jsonl"
+  },
+  {
+    "dataset": "2wikimultihopqa",
+    "split": "train",
+    "source": "data/rag/2wikimultihopqa/train.json",
+    "num_total": 5000,
+    "num_sample": 3,
+    "output": "data_sample/2wikimultihopqa_train_sample.jsonl"
+  },
+  {
+    "dataset": "2wikimultihopqa",
+    "split": "test",
+    "source": "data/rag/2wikimultihopqa/test.json",
+    "num_total": 1000,
+    "num_sample": 3,
+    "output": "data_sample/2wikimultihopqa_test_sample.jsonl"
+  },
+  {
+    "dataset": "fever",
+    "split": "train",
+    "source": "data/rag/fever/train.json",
+    "num_total": 5000,
+    "num_sample": 3,
+    "output": "data_sample/fever_train_sample.jsonl"
+  },
+  {
+    "dataset": "fever",
+    "split": "test",
+    "source": "data/rag/fever/test.json",
+    "num_total": 1000,
+    "num_sample": 3,
+    "output": "data_sample/fever_test_sample.jsonl"
+  },
+  {
+    "dataset": "truthfulqa",
+    "split": "train",
+    "source": "data/rag/truthfulqa/train.json",
+    "num_total": 653,
+    "num_sample": 3,
+    "output": "data_sample/truthfulqa_train_sample.jsonl"
+  },
+  {
+    "dataset": "truthfulqa",
+    "split": "test",
+    "source": "data/rag/truthfulqa/test.json",
+    "num_total": 164,
+    "num_sample": 3,
+    "output": "data_sample/truthfulqa_test_sample.jsonl"
+  },
+  {
+    "dataset": "musique",
+    "split": "train",
+    "source": "data/rag/musique/train.json",
+    "num_total": 600,
+    "num_sample": 3,
+    "output": "data_sample/musique_train_sample.jsonl"
+  },
+  {
+    "dataset": "musique",
+    "split": "test",
+    "source": "data/rag/musique/test.json",
+    "num_total": 400,
+    "num_sample": 3,
+    "output": "data_sample/musique_test_sample.jsonl"
+  },
+  {
+    "dataset": "medical",
+    "split": "train",
+    "source": "data/rag/medical/train.json",
+    "num_total": 118,
+    "num_sample": 3,
+    "output": "data_sample/medical_train_sample.jsonl"
+  },
+  {
+    "dataset": "medical",
+    "split": "test",
+    "source": "data/rag/medical/test.json",
+    "num_total": 79,
+    "num_sample": 3,
+    "output": "data_sample/medical_test_sample.jsonl"
+  },
+  {
+    "dataset": "covidqa",
+    "split": "train",
+    "source": "data/rag/covidqa/train.json",
+    "num_total": 1252,
+    "num_sample": 3,
+    "output": "data_sample/covidqa_train_sample.jsonl"
+  },
+  {
+    "dataset": "covidqa",
+    "split": "test",
+    "source": "data/rag/covidqa/test.json",
+    "num_total": 246,
+    "num_sample": 3,
+    "output": "data_sample/covidqa_test_sample.jsonl"
+  },
+  {
+    "dataset": "finance",
+    "split": "train",
+    "source": "data/rag/finance/train.json",
+    "num_total": 47,
+    "num_sample": 3,
+    "output": "data_sample/finance_train_sample.jsonl"
+  },
+  {
+    "dataset": "finance",
+    "split": "test",
+    "source": "data/rag/finance/test.json",
+    "num_total": 32,
+    "num_sample": 3,
+    "output": "data_sample/finance_test_sample.jsonl"
+  }
+]
