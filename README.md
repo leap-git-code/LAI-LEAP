@@ -1,4 +1,5 @@
-<h1 align="center">Counteracting Static Embedding Collapse with Internal Latent Activation</h1>
+<h1 align="center">A Mechanistic Approach to RAG Reranking: Estimating Context Utility
+from LLM Internal States</h1>
 
 <p align="center">
 Code for LEAP, a RAG reranking framework based on internal latent activation signals.
